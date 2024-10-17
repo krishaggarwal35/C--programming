@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main() {
+    int variable = 42; 
+    int *pointer = &variable; 
+    printf("Address of variable: %p\n", (void*)pointer); 
+    printf("Value of variable: %d\n", *pointer); 
+
+    return 0;
+}
